@@ -1,22 +1,9 @@
 {
-  "addons": [
-
-  ],
-  "buildpacks": [
-    {
-      "url": "heroku/nodejs"
-    }
-  ],
-  "description": "",
-  "env": {
-  },
-  "formation": {
-    "web": {
-      "quantity": 1
-    }
-  },
-  "name": "gun-server",
-  "scripts": {
-  },
-  "stack": "heroku-18"
-}
+    "name": "gun-server-etto",
+    "stack": "heroku-18",
+    "website": "http://gun.eco/",
+    "repository": "https://github.com/amark/gun",
+    "logo": "https://avatars3.githubusercontent.com/u/8811914",
+    "keywords": ["node", "gun", "gunDB", "database","graph","offline-first"],
+    "description": "Javascript, Offline-First Javascript Graph Database Server Peer"
+  }

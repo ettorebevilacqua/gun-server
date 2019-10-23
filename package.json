@@ -1,0 +1,51 @@
+{
+    "name": "gun",
+    "version": "0.2019.930",
+    "description": "A realtime, decentralized, offline-first, graph data synchronization engine.",
+    "scripts": {
+      "start": "node server.js",
+      "https": "HTTPS_KEY=test/https/server.key HTTPS_CERT=test/https/server.crt npm start"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/amark/gun.git"
+    },
+    "keywords": [
+      "gun",
+      "gunDB",
+      "graph",
+      "document",
+      "key",
+      "value",
+      "relational",
+      "datastore",
+      "database",
+      "engine",
+      "realtime",
+      "decentralized",
+      "peer-to-peer",
+      "distributed",
+      "P2P",
+      "OSS",
+      "embedded",
+      "localstorage",
+      "S3"
+    ],
+    "author": "ettore bevilacqua",
+    "license": "(Zlib OR MIT OR Apache-2.0)",
+    "bugs": {
+      "url": "https://github.com/amark/gun/issues"
+    },
+    "homepage": "https://github.com/amark/gun#readme",
+    "engines": {
+      "node": ">=0.8.4"
+    },
+    "dependencies": {
+      "ws": "~>7.1.0"
+    },
+    "optionalDependencies": {
+    },
+    "devDependencies": {
+
+    }
+  }
