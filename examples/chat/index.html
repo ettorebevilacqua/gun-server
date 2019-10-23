@@ -125,7 +125,7 @@
 
 <body>
   <div class="chat hue2 page">
-    <h2 id='title' class="chat__heading hue2 whitet">Have a Conversation...</h2>
+    <h2 id='title' class="chat__heading hue2 whitet">x Have a Conversation...</h2>
     <ul class="chat__message-list">
       <li class="none"></li>
     </ul>
@@ -154,7 +154,7 @@
   <script src="/gun.js"></script>
   <script src="/gun/nts.js"></script>
   <script>
-    var gun = Gun(location.origin + '/gun', 'http://gun-server-etto.herokuapp.com:8765/gun');
+    var gun = Gun('http://gun-server-etto.herokuapp.com:8765/gun');
     var chat = gun.get('converse/' + location.hash.slice(1));
 
     $(".chat__submit").on('click', submit);
