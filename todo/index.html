@@ -111,7 +111,7 @@
     // for how to build a simplified version
     // of this example: https://scrimba.com/c/cW2Vsa
     // var gun = Gun(location.origin + '/gun');
-    var gun = Gun(['http://localhost:8765/gun', 'https://gun-server-etto.herokuapp.com:8765/gun']);
+    var gun = Gun(['https://gun-server-etto.herokuapp.com:8765/gun']);
     var think = gun.get('think/' + location.hash.slice(1));
     var thoughtItemStr = function(id) { return '<li class="thought__item"><label class="visually-hidden" for="' + id + '">Thought</label><input id="' + id + '" class="thought__input huet"><li/>'}
     var typing, throttle;
