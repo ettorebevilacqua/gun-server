@@ -154,7 +154,7 @@
   <script src="/gun.js"></script>
   <script src="/gun/nts.js"></script>
   <script>
-    var gun = Gun('http://gun-server-etto.herokuapp.com/gun');
+   var gun = Gun(['https://gun-server-etto.herokuapp.com/gun']); // 'https://guntest.herokuapp.com/gun'
     var chat = gun.get('converse/' + location.hash.slice(1));
 
     $(".chat__submit").on('click', submit);

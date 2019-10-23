@@ -20,7 +20,7 @@
 <script src="../../../gun/sea.js"></script>
 
 <script>
-var gun = Gun(); //Gun(['http://localhost:8765/gun', 'https://guntest.herokuapp.com/gun']);
+var gun = Gun(['http://localhost:5000/gun', 'https://guntest.herokuapp.com/gun']);
 var user = gun.user().recall({sessionStorage: true});
 
 $('#up').on('click', function(e){
