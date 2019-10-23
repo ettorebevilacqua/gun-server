@@ -91,7 +91,7 @@
 <body>
   <div class="thought hue page">
     <div class="thought__form-container hue">
-      <h2 id='title' class="thought__heading hue">xy Add a thought... etto</h2>
+      <h2 id='title' class="thought__heading hue">xyz Add a thought... etto</h2>
       <button class="thought__add say huet">
         <span aria-hidden="true">+</span>
         <span class="visually-hidden">xx Add thought</span>
@@ -110,7 +110,8 @@
     // Check out the interactive tutorial
     // for how to build a simplified version
     // of this example: https://scrimba.com/c/cW2Vsa
-    var gun = Gun(location.origin + '/gun');
+    // var gun = Gun(location.origin + '/gun');
+    var gun = Gun(['http://localhost:8765/gun', 'https://gun-server-etto.herokuapp.com:8765/gun']);
     var think = gun.get('think/' + location.hash.slice(1));
     var thoughtItemStr = function(id) { return '<li class="thought__item"><label class="visually-hidden" for="' + id + '">Thought</label><input id="' + id + '" class="thought__input huet"><li/>'}
     var typing, throttle;
